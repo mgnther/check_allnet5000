@@ -8,6 +8,6 @@ Put the check_allnet5000 script in your Nagios/Icinga-Plugin folder (/usr/lib/na
 make it executable with  
 `chmod +x ./check_allnet5000`
 and execute it.  
-  ./check_allnet5000 <hostname> <username> <password> <sensorid> <warning> <critical>
+  `./check_allnet5000 <hostname> <username> <password> <sensorid> <warning> <critical>`
 e.g.:  
-  .\check_allnet5000 192.168.0.10 admin 123 110 25 35
+  `.\check_allnet5000 192.168.0.10 admin 123 110 25 35`
